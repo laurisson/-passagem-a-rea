@@ -56,12 +56,6 @@ body {
 
 
 @media(max-width: 750px) {
-    
-    body {
-    background: gray url('imagens/novv2.jpg') center center no-repeat fixed;
-    background-size: cover;
-    background-blend-mode: darken;
-}
 
     div.cabecalho {
         border-radius: 5px;
@@ -116,16 +110,10 @@ body {
 
 @media(max-width: 480px) {
     
-    body {
-    background: gray url('imagens/novv2.jpg') center center no-repeat fixed;
-    background-size: cover;
-    background-blend-mode: darken;
-}
-
     div.cabecalho {
         border-radius: 5px;
         color: #AAD8D3;
-        margin: -8px;
+        margin: -1%;
         border: 3px solid #00ADB5;
         text-align: center;
     }
@@ -189,12 +177,6 @@ body {
 }
 
 @media(min-width:300px) and (max-width:480px){
- 
-    body {
-    background: gray url('imagens/novv2.jpg') center center no-repeat fixed;
-    background-size: cover;
-    background-blend-mode: darken;
-}
     
     #fa1 {
         position: absolute;
