@@ -48,7 +48,7 @@ a {
 }
 
 body {
-    background: gray url('imagens/novv2.jpg') top center no-repeat fixed;
+    background: gray url('imagens/novv2.jpg') center center no-repeat fixed;
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -58,7 +58,7 @@ body {
 @media(max-width: 750px) {
     
     body {
-    background: gray url('imagens/novv2.jpg') top center no-repeat fixed;
+    background: gray url('imagens/novv2.jpg') center center no-repeat fixed;
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -117,7 +117,7 @@ body {
 @media(max-width: 480px) {
     
     body {
-    background: gray url('imagens/novv2.jpg') top center no-repeat fixed;
+    background: gray url('imagens/novv2.jpg') center center no-repeat fixed;
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -191,7 +191,7 @@ body {
 @media(min-width:300px) and (max-width:480px){
  
     body {
-    background: gray url('imagens/novv2.jpg') top center no-repeat fixed;
+    background: gray url('imagens/novv2.jpg') center center no-repeat fixed;
     background-size: cover;
     background-blend-mode: darken;
 }
