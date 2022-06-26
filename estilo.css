@@ -1,0 +1,206 @@
+div.cabecalho {
+    border-radius: 5px;
+    color: #AAD8D3;
+    margin: -7px;
+    border: 3px solid #00ADB5;
+    text-align: center;
+}
+
+nav.box {
+    text-align: center;
+    width: 15%;
+    height: 15%;
+    border: 3px solid #00ADB5;
+    display: inline;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a {
+    color: #AAD8D3;
+    font-weight: bold;
+}
+
+#box1 {
+    position: absolute;
+    bottom: 15%;
+    right: 74%;
+}
+
+#box2 {
+    position: absolute;
+    bottom: 15%;
+    right: 53%;
+}
+
+#box3 {
+    position: absolute;
+    bottom: 15%;
+    right: 32%;
+}
+
+#box4 {
+    position: absolute;
+    bottom: 15%;
+    right: 11%;
+}
+
+body {
+    background: gray url('imagens/novv2.jpg') top center no-repeat fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+
+@media(max-width: 750px) {
+
+    div.cabecalho {
+        border-radius: 5px;
+        color: #AAD8D3;
+        margin: -7px;
+        border: 3px solid #00ADB5;
+        text-align: center;
+    }
+
+
+    nav.box {
+        text-align: center;
+        width: 15%;
+        height: 15%;
+        border: 3px solid #00ADB5;
+        display: inline;
+        padding: 15px;
+        border-radius: 7px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+
+    #box1 {
+        width: 20%;
+        position: absolute;
+        top: 45%;
+        right: 55%;
+    }
+
+    #box2 {
+        width: 20%;
+        position: absolute;
+        top: 45%;
+        right: 20%;
+    }
+
+    #box3 {
+        width: 20%;
+        position: absolute;
+        bottom: 10%;
+        right: 55%;
+    }
+
+    #box4 {
+        width: 20%;
+        position: absolute;
+        bottom: 10%;
+        right: 20%;
+    }
+}
+
+@media(max-width: 480px) {
+
+    div.cabecalho {
+        border-radius: 5px;
+        color: #AAD8D3;
+        margin: -8px;
+        border: 3px solid #00ADB5;
+        text-align: center;
+    }
+    #box1 {
+        position: absolute;
+        top: 53%;
+        right: 15%;
+        width: 60%;
+        height: 30px;
+    }
+
+    #box2 {
+        position: absolute;
+        top: 63%;
+        right: 15%;
+        width: 60%;
+        height: 30px;
+    }
+
+    #box3 {
+        position: absolute;
+        top: 73%;
+        right: 15%;
+        width: 60%;
+        height: 30px;
+    }
+
+    #box4 {
+        width: 20%;
+        position: absolute;
+        top: 83%;
+        right: 15%;
+        width: 60%;
+        height: 30px;
+    }
+
+    #fa1 {
+        position: absolute;
+        top: 30%;
+        left: 45%;
+    }
+
+    #fa2 {
+        position: absolute;
+        top: 30%;
+        left: 45%;
+    }
+
+    #fa3 {
+        position: absolute;
+        top: 30%;
+        left: 45%;
+    }
+
+    #fa4 {
+        position: absolute;
+        top: 30%;
+        left: 45%;
+    }
+
+}
+
+@media(min-width:300px) and (max-width:480px){
+ 
+    
+    #fa1 {
+        position: absolute;
+        top: 30%;
+        right: -35%;
+    }
+
+    #fa2 {
+        position: absolute;
+        top: 30%;
+        right: -35%;
+    }
+
+    #fa3 {
+        position: absolute;
+        top: 30%;
+        right: -35%;
+    }
+
+    #fa4 {
+        position: absolute;
+        top: 30%;
+        right: -35%;
+   
+    }  
+}
