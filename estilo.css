@@ -111,6 +111,7 @@ body {
 @media(max-width: 480px) {
     
     div.cabecalho {
+        width: 101%;
         border-radius: 5px;
         color: #AAD8D3;
         margin: -1%;
